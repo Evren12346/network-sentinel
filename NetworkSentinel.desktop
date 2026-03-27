@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Network Sentinel
+Comment=Live Network Intrusion Monitor — detects threats and explains what to do
+Exec=bash -c 'pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY python3 /home/evren-bartlett/Documents/network_monitor/sentinel.py'
+Icon=/usr/share/icons/HighContrast/48x48/apps/config-firewall.png
+Terminal=false
+Categories=Network;Security;Monitor;
+Keywords=network;monitor;intrusion;security;sentinel;
+StartupNotify=true
