@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # Network Sentinel launcher — requires root for raw packet capture
 
+set -euo pipefail
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VENV_PY="/home/evren-bartlett/Documents/.venv/bin/python"
+VENV_PY="$SCRIPT_DIR/.venv/bin/python"
 
 if [[ -x "$VENV_PY" ]]; then
     PYTHON_BIN="$VENV_PY"
