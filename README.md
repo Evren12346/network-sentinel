@@ -8,6 +8,14 @@ Network Sentinel is a desktop-friendly Python network monitoring utility focused
 
 ## Install From GitHub (Recommended)
 
+Linux one-liner:
+
+```bash
+git clone https://github.com/Evren12346/network-sentinel.git && cd network-sentinel && bash install.sh
+```
+
+Step-by-step:
+
 ```bash
 git clone https://github.com/Evren12346/network-sentinel.git
 cd network-sentinel
